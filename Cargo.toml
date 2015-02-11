@@ -3,3 +3,8 @@
 name = "coreclr"
 version = "0.0.1"
 authors = ["Daniel Fagnan <dnfagnan@gmail.com>"]
+build = "build.rs"
+
+[lib]
+name = "coreclr"
+crate-type = ["dylib"]

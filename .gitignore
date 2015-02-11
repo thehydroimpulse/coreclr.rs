@@ -1,2 +1,6 @@
 target
+*.dylib
+*.so
+*.o
+*.exe
 Cargo.lock
